@@ -119,6 +119,6 @@ body {
   margin-left: 0px;
 }
 
-.project-value:hover {
+.project-label:hover {
   color: rgb(0, 123, 255);
 }
