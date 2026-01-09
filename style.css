@@ -64,7 +64,7 @@ body {
 
 .contact-value {
   flex: 1;
-  color: rgb(30, 30, 120);
+  color: rgb(120, 180, 255);
   font-size: 0.85em;
   text-decoration: none;
   transition: color 0.3s ease;
