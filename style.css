@@ -84,3 +84,28 @@ body {
 .footer p {
   margin: 0;
 }
+
+.projects-dropdown {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.projects-dropdown summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.projects-dropdown summary::-webkit-details-marker {
+  display: none;
+}
+
+.projects-links {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.projects-links a {
+  margin-left: 0;
+}
