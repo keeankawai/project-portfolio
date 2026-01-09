@@ -109,3 +109,16 @@ body {
 .projects-links a {
   margin-left: 0;
 }
+
+.project-label {
+  flex: 1;
+  color: rgb(120, 180, 255);
+  font-size: 0.85em;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  margin-left: 15px;
+}
+
+.project-value:hover {
+  color: rgb(0, 123, 255);
+}
