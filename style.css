@@ -1,0 +1,86 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #000;
+  background-image: url('background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+  color: white;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: left;
+}
+
+.contact-info h2 {
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.contact-item {
+  display: flex;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  align-items: flex-start;
+}
+
+.contact-item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.contact-label {
+  width: 80px;
+  color: rgb(120, 120, 120);
+  font-size: 0.85em;
+}
+
+.contact-value {
+  flex: 1;
+  color: rgb(90, 90, 180);
+  font-size: 0.85em;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  margin-left: 15px;
+}
+
+.contact-value:hover {
+  color: rgb(0, 123, 255);
+}
+
+.footer {
+  font-size: 0.75em;
+  color: #ddd;
+  padding: 20px;
+}
+
+.footer p {
+  margin: 0;
+}
