@@ -17,6 +17,27 @@ body {
   min-height: 100vh;
 }
 
+
+
+
+.about-me {
+  padding: 25px;
+}
+
+.about-me h2 {
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.about-me p {
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+
+
+
 .card {
   background: rgba(0, 0, 0, 0.4);
   border-radius: 12px;
